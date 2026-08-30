@@ -18,20 +18,26 @@ int main(){
 
     while (i<=n){
 
-        char ch = 'A';
-
-        int j = 1;
+       cout << " ";
+        int space = n - 1;
         
-        while (j<=i){
-        char nech = ch + n - i;
+        while (space>=i){
+        
+        cout << " ";
 
-        cout << nech << " ";
-
-        ch = ch + 1;
-
-        j = j+1;
+        space =  space - 1;
            
         }
+
+        int star = 1;
+
+        while (star<=i){
+
+         cout << "*" ;
+
+         star = star + 1;
+        }
+
 
         cout << endl;
 
